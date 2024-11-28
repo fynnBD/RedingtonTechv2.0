@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -25,5 +26,17 @@
     "globals": "^15.12.0",
     "vite": "^6.0.1"
   },
-  "proxy": "http://localhost:55003"
+  "proxy": "http://localhost:55003",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
