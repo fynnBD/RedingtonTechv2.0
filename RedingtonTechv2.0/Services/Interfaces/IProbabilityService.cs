@@ -1,6 +1,7 @@
-﻿using ReadingtonTech.Models.Interfaces;
+﻿
+using RedingtonTechv2._0.Models.Interfaces;
 
-namespace ReadingtonTech.Services.Interfaces;
+namespace RedingtonTechv2._0.Services.Interfaces;
 
 public interface IProbabilityService
 {

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import calculateProbability from "./Service/CalculationService";
 import './App.css';
 

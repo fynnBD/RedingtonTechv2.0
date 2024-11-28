@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ReadingtonTech.Models.Interfaces;
-using ReadingtonTech.Services.Interfaces;
-using System.ComponentModel.DataAnnotations;
+using RedingtonTechv2._0.Models.Interfaces;
+using RedingtonTechv2._0.Services.Interfaces;
 
-namespace ReadingtonTech.Controllers
+namespace RedingtonTechv2._0.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -13,7 +12,7 @@ namespace ReadingtonTech.Controllers
 
         public ProbabilityController(IProbabilityService probabilityService)
         {
-            this._probabilityService = probabilityService;
+            _probabilityService = probabilityService;
         }
 
         // POST: api//Combine

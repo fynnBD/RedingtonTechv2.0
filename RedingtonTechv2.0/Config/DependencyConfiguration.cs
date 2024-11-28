@@ -1,9 +1,9 @@
-﻿using ReadingtonTech.Repositories.Interfaces;
-using ReadingtonTech.Repositories;
-using ReadingtonTech.Services.Interfaces;
-using ReadingtonTech.Services;
+﻿using RedingtonTechv2._0.Repositories;
+using RedingtonTechv2._0.Repositories.Interfaces;
+using RedingtonTechv2._0.Services;
+using RedingtonTechv2._0.Services.Interfaces;
 
-namespace ReadingtonTech.Config
+namespace RedingtonTechv2._0.Config
 {
     public static class DependencyConfiguration
     {

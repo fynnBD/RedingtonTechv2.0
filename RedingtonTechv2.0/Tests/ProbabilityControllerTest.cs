@@ -1,11 +1,11 @@
 ﻿using System.Net;
 using NUnit.Framework;
-using ReadingtonTech.Controllers;
-using ReadingtonTech.Repositories;
-using ReadingtonTech.Services;
 using Microsoft.AspNetCore.Mvc;
+using RedingtonTechv2._0.Services;
+using RedingtonTechv2._0.Repositories;
+using RedingtonTechv2._0.Controllers;
 
-namespace ReadingtonTech.Tests
+namespace RedingtonTechv2._0.Tests
 {
     [TestFixture]
     public class ProbabilityControllerTest

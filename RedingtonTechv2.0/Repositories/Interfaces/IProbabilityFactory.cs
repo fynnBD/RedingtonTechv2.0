@@ -1,7 +1,8 @@
-﻿using ReadingtonTech.Models.Interfaces;
-using ReadingtonTech.Services;
+﻿
+using RedingtonTechv2._0.Models.Interfaces;
+using RedingtonTechv2._0.Services;
 
-namespace ReadingtonTech.Repositories.Interfaces;
+namespace RedingtonTechv2._0.Repositories.Interfaces;
 
 public interface IProbabilityFactory
 {

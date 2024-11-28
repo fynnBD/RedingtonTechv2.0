@@ -1,8 +1,4 @@
-using ReadingtonTech.Config;
-using ReadingtonTech.Repositories;
-using ReadingtonTech.Repositories.Interfaces;
-using ReadingtonTech.Services;
-using ReadingtonTech.Services.Interfaces;
+using RedingtonTechv2._0.Config;
 
 var builder = WebApplication.CreateBuilder(args);
 

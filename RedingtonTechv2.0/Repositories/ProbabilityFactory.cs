@@ -1,9 +1,9 @@
-﻿using ReadingtonTech.Models;
-using ReadingtonTech.Models.Interfaces;
-using ReadingtonTech.Repositories.Interfaces;
-using ReadingtonTech.Services;
+﻿using RedingtonTechv2._0.Models;
+using RedingtonTechv2._0.Models.Interfaces;
+using RedingtonTechv2._0.Repositories.Interfaces;
+using RedingtonTechv2._0.Services;
 
-namespace ReadingtonTech.Repositories
+namespace RedingtonTechv2._0.Repositories
 {
     public class ProbabilityFactory : IProbabilityFactory
     {
@@ -14,7 +14,7 @@ namespace ReadingtonTech.Repositories
 
         public IProbabilityOutput CreateProbabilityOutput(decimal? a, decimal? b, CalculationType type)
         {
-            return new ProbabilityOutput() { Values = [a ?? 0,b ?? 0], CalculationType = type};
+            return new ProbabilityOutput() { Values = [a ?? 0, b ?? 0], CalculationType = type };
         }
     }
 }

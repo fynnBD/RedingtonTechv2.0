@@ -1,4 +1,4 @@
-﻿namespace ReadingtonTech.Models.Interfaces;
+﻿namespace RedingtonTechv2._0.Models.Interfaces;
 
 public interface IProbabilityInput
 {

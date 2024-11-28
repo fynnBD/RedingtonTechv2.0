@@ -1,20 +1,32 @@
 import config from "../Config/Config.json";
 
+
+
 async function calculateProbability(formData, calculationType) {
+    var BASEURL = config.BASEURL;
 
-    const url = (calculationType == "Combine" ? config.BASEURL + "Combine?" :
-        config.BASEURL + "Either?") +
-        new URLSearchParams(formData)
+    try {
+        const url = (calculationType == "Combine" ? BASEURL + "Combine?" :
+            BASEURL + "Either?") +
+            new URLSearchParams(formData)
 
-    let response = await fetch(url, {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-        },
-    })
-    let responseText = await response.text();
-    return responseText
+
+        let response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+            cache: 'no-store' 
+        }).catch((error) => console.log(error));
+
+        let responseText = await response.text();
+        if (responseText == "") { console.log(response) }
+        return responseText
+    }
+    catch (error) {
+        console.error('Fetch error:', error);
+    }
 
 }
 

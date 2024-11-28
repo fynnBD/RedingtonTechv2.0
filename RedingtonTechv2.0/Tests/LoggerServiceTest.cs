@@ -1,12 +1,12 @@
 ﻿using NUnit.Framework;
 using NUnit.Framework.Legacy;
-using ReadingtonTech.Models.Interfaces;
-using ReadingtonTech.Repositories;
-using ReadingtonTech.Repositories.Interfaces;
-using ReadingtonTech.Services;
-using ReadingtonTech.Services.Interfaces;
+using RedingtonTechv2._0.Models.Interfaces;
+using RedingtonTechv2._0.Repositories;
+using RedingtonTechv2._0.Repositories.Interfaces;
+using RedingtonTechv2._0.Services;
+using RedingtonTechv2._0.Services.Interfaces;
 
-namespace ReadingtonTech.Tests;
+namespace RedingtonTechv2._0.Tests;
 
 [TestFixture]
 public class LoggerServiceTest

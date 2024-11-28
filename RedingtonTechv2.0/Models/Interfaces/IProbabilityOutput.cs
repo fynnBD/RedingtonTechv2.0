@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.SignalR;
-using ReadingtonTech.Services;
+using RedingtonTechv2._0.Services;
 
-namespace ReadingtonTech.Models.Interfaces;
+namespace RedingtonTechv2._0.Models.Interfaces;
 
 public interface IProbabilityOutput
 {

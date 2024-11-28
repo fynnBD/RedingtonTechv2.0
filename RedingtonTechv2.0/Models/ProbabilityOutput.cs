@@ -1,7 +1,8 @@
-﻿using ReadingtonTech.Models.Interfaces;
-using ReadingtonTech.Services;
+﻿
+using RedingtonTechv2._0.Models.Interfaces;
+using RedingtonTechv2._0.Services;
 
-namespace ReadingtonTech.Models;
+namespace RedingtonTechv2._0.Models;
 
 public class ProbabilityOutput : IProbabilityOutput
 {

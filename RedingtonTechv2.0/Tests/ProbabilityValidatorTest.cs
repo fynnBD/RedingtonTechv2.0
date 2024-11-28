@@ -1,10 +1,10 @@
 ﻿using NUnit.Framework;
-using ReadingtonTech.Models;
-using ReadingtonTech.Models.Interfaces;
-using ReadingtonTech.Repositories;
-using ReadingtonTech.Repositories.Interfaces;
+using RedingtonTechv2._0.Models;
+using RedingtonTechv2._0.Models.Interfaces;
+using RedingtonTechv2._0.Repositories;
+using RedingtonTechv2._0.Repositories.Interfaces;
 
-namespace ReadingtonTech.Tests;
+namespace RedingtonTechv2._0.Tests;
 
 [TestFixture]
 public class ProbabilityValidatorTest

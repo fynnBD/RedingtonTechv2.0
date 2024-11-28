@@ -1,6 +1,7 @@
-﻿using ReadingtonTech.Models.Interfaces;
+﻿
+using RedingtonTechv2._0.Models.Interfaces;
 
-namespace ReadingtonTech.Models
+namespace RedingtonTechv2._0.Models
 {
     public class ProbablilityInput : IProbabilityInput
     {

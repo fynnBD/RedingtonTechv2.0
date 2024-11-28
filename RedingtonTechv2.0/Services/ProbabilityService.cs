@@ -1,8 +1,8 @@
-﻿using ReadingtonTech.Models.Interfaces;
-using ReadingtonTech.Repositories.Interfaces;
-using ReadingtonTech.Services.Interfaces;
+﻿using RedingtonTechv2._0.Models.Interfaces;
+using RedingtonTechv2._0.Repositories.Interfaces;
+using RedingtonTechv2._0.Services.Interfaces;
 
-namespace ReadingtonTech.Services
+namespace RedingtonTechv2._0.Services
 {
     public class ProbabilityService : IProbabilityService
     {
@@ -26,8 +26,10 @@ namespace ReadingtonTech.Services
             this._loggingEnabled = true;
         }
 
+        //Either and Validate
         public async Task<IProbabilityOutput> Either(decimal? a, decimal? b)
         {
+            //create input and output objects, output will have errorlist string to append to
             IProbabilityInput input = _factory.CreateProbabilityInput(a, b);
             IProbabilityOutput output = _factory.CreateProbabilityOutput(a, b, CalculationType.Either);
 
@@ -44,6 +46,7 @@ namespace ReadingtonTech.Services
             return output;
         }
 
+        //Combine and Validate
         public async Task<IProbabilityOutput> Combined(decimal? a, decimal? b)
         {
             IProbabilityInput input = _factory.CreateProbabilityInput(a, b);
