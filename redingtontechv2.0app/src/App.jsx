@@ -12,7 +12,7 @@ const App = () => {
     const [calculationType, setCalculationType] = useState("Combine");
 
     const [textarea, setTextarea] = useState(
-        "The content of a textarea goes in the value attribute"
+        ""
     );
 
     const handleChange = (e) => {
