@@ -1,0 +1,6 @@
+@RedingtonTechv2._0_HostAddress = http://localhost:5295
+
+GET {{RedingtonTechv2._0_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
